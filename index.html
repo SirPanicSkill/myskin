@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>MYSKIN франшиза</title>
+	<!-- ==================Start Css Link===================== -->
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+	<!-- googlefonts -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald:400,700&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Play:400,700&subset=cyrillic" rel="stylesheet">
+	<!-- bootstrap css link -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<!-- fontawesome css link -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<!-- slick carosel css -->
+	<link href="assets/css/slick.css" rel="stylesheet">
+	<!-- Slick carosel theme -->
+	<link href="assets/css/slick-theme.css" rel="stylesheet">
+	<!-- animated css -->
+	<link href="assets/css/animate.css" rel="stylesheet">
+	<!-- lightbox css -->
+	<link href="assets/css/lightbox.min.css" rel="stylesheet">
+	<!-- mean menu css -->
+	<link href="assets/css/meanmenu.css" rel="stylesheet">
+	<!-- element css -->
+	<link href="assets/css/element.css" rel="stylesheet">
+	<!-- main style link -->
+	<link href="style.css" rel="stylesheet">
+	<!-- responsive css links -->
+	<link href="assets/css/responsive.css" rel="stylesheet">
+	<!-- ==================End Css Link===================== -->
+
+
+	<!--[if lt IE 9]>
+<script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script src="assets/js/smtp.js"></script>
+<script type="text/javascript">
+	function sendmail(nameuser, phone, email, sity, message) {
+		if ((nameuser=="") || (phone=="") || (email=="") || (sity=="") || (message=="")) {
+			alert("Заполните все поля!");
+		} else {
+			var emailbody = ('оставил заявку '+nameuser+', телефон для связи '+phone+', обратный электронный адрес '+email+', желаемый город '+sity+', дополнительное сообщение '+message);
+			Email.send("alessandro.welli@yandex.ru","my@myskin.top","This is the mail from myskin.top",emailbody,"smtp.yandex.ru","alessandro.welli@yandex.ru","Fktrcway2007");
+			alert("Ваше заявка отправлена, с Вами свяжутся.");
+		}
+		}
+</script>
+
+</head>
+
+<body>
+	<!--
+=========================================================
+		Preloder
+==========================================================
+-->
+<!--	<div class="grnbn-preloder-warp">
+		<div class="spinner">
+			<div class="cube1"></div>
+			<div class="cube2"></div>
+		</div>
+	</div> -->
+	<!--
+=========================================================
+		Preloder
+==========================================================
+-->
+
+	<!--
+=========================================================
+		Header Area Start
+==========================================================
+-->
+	<header class="top-area">
+		<div class="top-cell-bar sm-font area-clr">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="left-cell-icon i-clr topbar-a-clr">
+							<ul class="mp0-ln">
+								<li>
+									<a href="#"> <span><i class="fa fa-phone" aria-hidden="true"></i></span>8 (499) 653 80 49</a>
+								</li>
+								<li>
+									<a href="mailto:clients@myskin.com"> <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>my@myskin.top</a>
+								</li>
+							</ul>
+						</div>
+						<!-- end left cell icon -->
+					</div>
+					<!-- end left section --> <!--
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="right-social-icon topbar-a-clr">
+							<ul class="mp0-ln text-right">
+								<Li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></Li>
+								<Li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></Li>
+								<Li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></Li>
+								<Li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></Li>
+								<Li class="cart-p"><a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a> <span>3</span></Li>
+							</ul>
+						</div> -->
+						<!-- end right social icon --> <!--
+					</div> -->
+					<!-- end right section -->
+				</div>
+			</div>
+		</div>
+		<!-- end top cell bar -->
+		<div class="mbl-menu"></div>
+		<div class="top-men-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2  hidden-sm hidden-xs">
+						<div class="logo">
+							<p></p>	
+							<a href="//myskin.top">							
+								<img class="img-responsive" src="assets/images/myskin.png" alt="">
+							</a>
+							<p></p>	
+						</div>
+						<!-- end logo -->
+					</div>
+					<div class="col-md-8  hidden-sm hidden-xs">
+						<div class="main-menu">
+							<nav>
+								<ul><!--
+									<li class="has-child"><a href="#">Home</a>
+										<ul class="sub-menu">
+											<li><a href="index.html"> Home One</a></li>
+											<li><a href="index1.html"> Home Two</a></li>
+											<li><a href="index2.html"> Home Three</a></li>
+										</ul>
+									</li>
+									<li class="has-child"><a href="#">About</a>
+										<ul class="sub-menu">
+											<li><a href="about.html">About one</a></li>
+											<li><a href="about1.html">About two</a></li>
+										</ul>
+									</li>
+									<li class="has-child"><a href="#">Menu</a>
+										<ul class="sub-menu">
+											<li><a href="menu1.html">Menu one</a></li>
+											<li><a href="menu2.html">Menu Two</a></li>
+										</ul>
+									</li>
+									<li class="has-child"><a href="#">Blog</a>
+										<ul class="sub-menu">
+											<li><a href="blog.html">Blog</a></li>
+											<li><a href="blog-single.html">Blog single</a></li>
+										</ul>
+									</li>
+									<li class="has-child"><a href="#">Pages</a>
+										<ul class="sub-menu">
+											<li><a href="index.html"> Home One</a></li>
+											<li><a href="index1.hmtml"> Home Two</a></li>
+											<li><a href="index2.hmtml"> Home Three</a></li>
+											<li class="has-child"><a href="#">Menu</a>
+												<ul class="menu-sub">
+													<li><a href="menu1.html">Menu one</a></li>
+													<li><a href="menu2.html">Menu Two</a></li>
+												</ul>
+											</li>
+											<li class="has-child"><a href="#">Other page</a>
+												<ul class="menu-sub">
+													<li><a href="blog.html">Blog</a></li>
+													<li><a href="blog-single.html">Blog single</a></li>
+													<li><a href="reservation.html">Reservation</a></li>
+													<li><a href="contact.html">contact</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li><a href="reservation.html">Reservation</a></li>
+									<li><a href="contact.html">contact</a></li>-->
+								</ul>
+							</nav>
+						</div>
+						<!-- end main menu -->
+					</div>
+				<!--	<div class="col-md-2  hidden-sm hidden-xs">
+						<div class="main-serach text-right">
+							<a href="#a1" class="btn-mr-t"> Заявка</a>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</div>
+		<!-- end top menu bar -->
+	</header>
+	<!--
+=========================================================
+		Header Area End
+==========================================================
+-->
+	<!--
+=========================================================
+		slider section start
+==========================================================
+-->
+	<div class="main-slider-1 white-clr-all">
+		<div id="carosel-mr-1" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carosel-mr-1" data-slide-to="0" class="active"></li>
+				<li data-target="#carosel-mr-1" data-slide-to="1"></li>
+				<li data-target="#carosel-mr-1" data-slide-to="2"></li>
+				<li data-target="#carosel-mr-1" data-slide-to="3"></li>
+				<li data-target="#carosel-mr-1" data-slide-to="4"></li>
+				<li data-target="#carosel-mr-1" data-slide-to="5"></li>
+			</ol>
+			<div class="carousel-inner main-sld" role="listbox">
+				<div class="item active main-sld">
+					<div class="slider-bg" style="background-image: url('assets/images/slider-img/1920x1049_1.png');"></div>
+					<div class="slider-cell">
+						<div class="slider-ver">
+							<div class="slider-con text-center">
+								<h1>ВСТРЕЧАЙТЕ! <span>НОВЫЙ МАГАЗИН</span> КОРЕЙСКОЙ КОСМЕТИКИ!</h1>
+								<p>мультибрендовый магазин корейской косметики по франшизе MYSKIN</p>
+								<a class="btn-mr" href="#a1">оставить заявку</a>
+								<a class="btn-mr-tr" href="#a2">узнать больше</a>
+							</div>
+							<!-- end slider content -->
+						</div>
+					</div>
+				</div>
+				<!-- end single item -->
+				<div class="item main-sld">
+					<div class="slider-bg" style="background-image: url('assets/images/slider-img/1920x1049_2.png');"></div>
+					<div class="slider-cell">
+						<div class="slider-ver">
+							<div class="slider-con text-center">
+								<h1>ИЩЕТЕ <span>ФРАНШИЗУ?</span> ХОТИТЕ РАБОТАТЬ ВМЕСТЕ С НАДЁЖНЫМ ПАРТНЕРОМ?</h1>
+								<p>5 лет опыта работы с корейской косметикой, собственный склад, персональный менеджер, отдел обучения – это MYSKIN</p>
+								<a class="btn-mr" href="#a1">оставить заявку</a>
+								<a class="btn-mr-tr" href="#a2">узнать больше</a>
+							</div>
+							<!-- end slider content -->
+						</div>
+					</div>
+				</div>
+				<!-- end single item -->
+				<div class="item main-sld">
+					<div class="slider-bg" style="background-image: url('assets/images/slider-img/1920x1049_3.png');"></div>
+					<div class="slider-cell">
+						<div class="slider-ver">
+							<div class="slider-con text-center">
+								<h1>ХОТИТЕ ОТКРЫТЬ МАГАЗИН, КОТОРЫЙ БУДЕТ ПРИНОСИТЬ <span>ПРИБЫЛЬ</span>?</h1>
+								<p>25 брендов корейской косметики – всё самое лучшее в одном магазине!</p>
+								<a class="btn-mr" href="#a1">оставить заявку</a>
+								<a class="btn-mr-tr" href="#a2">узнать больше</a>
+							</div>
+							<!-- end slider content -->
+						</div>
+					</div>
+				</div>
+				<!-- end single item -->
+				<div class="item active main-sld">
+					<div class="slider-bg" style="background-image: url('assets/images/slider-img/1920x1049_4.png');"></div>
+					<div class="slider-cell">
+						<div class="slider-ver">
+							<div class="slider-con text-center">
+								<h1>ВСТРЕЧАЙТЕ! <span>НОВЫЙ МАГАЗИН</span> КОРЕЙСКОЙ КОСМЕТИКИ!</h1>
+								<p>мультибрендовый магазин корейской косметики по франшизе MYSKIN</p>
+								<a class="btn-mr" href="#a1">оставить заявку</a>
+								<a class="btn-mr-tr" href="#a2">узнать больше</a>
+							</div>
+							<!-- end slider content -->
+						</div>
+					</div>
+				</div>
+				<!-- end single item -->
+				<div class="item main-sld">
+					<div class="slider-bg" style="background-image: url('assets/images/slider-img/1920x1049_5.png');"></div>
+					<div class="slider-cell">
+						<div class="slider-ver">
+							<div class="slider-con text-center">
+								<h1>ИЩЕТЕ <span>ФРАНШИЗУ?</span> ХОТИТЕ РАБОТАТЬ ВМЕСТЕ С НАДЁЖНЫМ ПАРТНЕРОМ?</h1>
+								<p>5 лет опыта работы с корейской косметикой, собственный склад, персональный менеджер, отдел обучения – это MYSKIN</p>
+								<a class="btn-mr" href="#a1">оставить заявку</a>
+								<a class="btn-mr-tr" href="#a2">узнать больше</a>
+							</div>
+							<!-- end slider content -->
+						</div>
+					</div>
+				</div>
+				<!-- end single item -->
+				<div class="item main-sld">
+					<div class="slider-bg" style="background-image: url('assets/images/slider-img/1920x1049_6.png');"></div>
+					<div class="slider-cell">
+						<div class="slider-ver">
+							<div class="slider-con text-center">
+								<h1>ХОТИТЕ ОТКРЫТЬ МАГАЗИН, КОТОРЫЙ БУДЕТ ПРИНОСИТЬ <span>ПРИБЫЛЬ</span>?</h1>
+								<p>25 брендов корейской косметики – всё самое лучшее в одном магазине!</p>
+								<a class="btn-mr" href="#a1">оставить заявку</a>
+								<a class="btn-mr-tr" href="#a2">узнать больше</a>
+							</div>
+							<!-- end slider content -->
+						</div>
+					</div>
+				</div>
+				<!-- end single item -->
+			</div>
+			<a class="left slide-control-mr" href="#carosel-mr-1" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+			<a class="right slide-control-mr" href="#carosel-mr-1" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+		</div>
+	</div>
+	<!-- end slider bar -->
+	<!--
+=========================================================
+		slider section start
+==========================================================
+-->
+
+<!--
+=========================================================
+		Chef two section start
+==========================================================
+-->
+	<div class="grnbrn-chef2-area sec-pad abt1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sec-tit text-center">
+						<h2>ПОЧЕМУ ПАРТНЕРЫ ВЫБИРАЮТ ФРАНШИЗУ</h2>
+						<h4><span>MYSKIN</span> </h4>
+					</div>
+				</div>
+				<!-- end section title -->
+			</div>
+			<div class="big-spacer"></div>
+			<!-- end big spoacer -->
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12 mtb-30">
+					<div class="single-chef-tem home-3">
+						<img class="img-responsive" src="assets/images/info/start_b.png" alt="">
+						<!-- end chef img box -->
+						<div class="chef-tem-text text-center p-small">
+							<h5>Время деньги</h5>
+							<p><span>Быстрый старт и окупаемость</span></p>
+						</div>
+					</div>
+				</div>
+				<!-- end single chef -->
+				<div class="col-md-3 col-sm-6 col-xs-12 mtb-30">
+					<div class="single-chef-tem home-3">
+						<img class="img-responsive" src="assets/images/info/garanty_g.png" alt="">
+						<!-- end chef img box -->
+						<div class="chef-tem-text text-center p-small">
+							<h5>Гарантия качества</h5>
+							<p><span>100% качество товаров</span></p>
+						</div>
+					</div>
+				</div>
+				<!-- end single chef -->
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="single-chef-tem home-3">
+						<img class="img-responsive" src="assets/images/info/command_b.png" alt="">
+						<!-- end chef img box -->
+						<div class="chef-tem-text text-center p-small">
+							<h5>Надежный Партнер</h5>
+							<p><span>Команда профессионалов MYSKIN</span></p>
+						</div>
+					</div>
+				</div>
+				<!-- end single chef -->
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="single-chef-tem home-3">
+						<img class="img-responsive" src="assets/images/info/managment_b.png" alt="">
+						<!-- end chef img box -->
+						<div class="chef-tem-text text-center p-small">
+							<h5 id="a1">Маркетинг</h5>
+							<p><span>Поддержка по маркетингу</span></p>
+						</div>
+					</div>
+				</div>
+				<!-- end single chef -->
+			</div>
+		</div>
+	</div>
+	<!--
+=========================================================
+		Chef two section End
+==========================================================
+-->
+
+<!--
+=========================================================
+		Home page 2 reservation start
+==========================================================
+-->
+	<div class="grnbn-booktbl sec-pad home-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sec-tit text-center white">
+						<h2>ОСТАВЬТЕ ЗАЯВКУ</h2>
+						<h4><span>и получите индивидуальное</span> коммерческое предложение</h4>
+					</div>
+				</div>
+				<!-- end section title -->
+			</div>
+			<div class="big-spacer"></div>
+			<!-- end big spacer -->
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row">
+						<div class="form-group col-md-6 col-sm-6 col-xs-12 mb-30">
+							<div class="single-input home-3">
+								<input id="m1" type="email" placeholder="Ваше имя *">
+							</div>
+						</div>
+						<!-- single input end -->
+						<div class="form-group col-md-6 col-sm-6 col-xs-12 mb-30">
+							<div class="single-input home-3">
+								<input id="m2" type="text" placeholder="Ваш телефон *">
+							</div>
+						</div>
+						<!-- single input end -->
+					</div>
+					<div class="row">
+						<div class="form-group col-md-6 col-sm-6 col-xs-12 mb-30">
+							<div class="single-input home-3">
+								<input id="m3" type="email" placeholder="Ваш email *">
+							</div>
+						</div>
+						<!-- single input end -->
+						<div class="form-group col-md-6 col-sm-6 col-xs-12 mb-30">
+							<div class="single-input home-3">
+								<input id="m4" type="text" placeholder="Ваш город *">
+							</div>
+						</div>
+						<!-- single input end -->
+					</div>
+					<div class="row">
+						<div class="form-group col-md-12 col-sm-12 col-xs-12 mb-30">
+							<div class="single-input home-3">
+								<input id="m5" type="text" placeholder="Дополнительное сообщение *">
+							</div>
+						</div>
+						<!-- single input end -->
+					</div>
+					<div id="a2"></div>
+					<div class="col-md-12 text-center mbn-n">
+						<a href="javascript:sendmail($('#m1').val(),$('#m2').val(),$('#m3').val(),$('#m4').val(),$('#m5').val())" class="btn-mr-tr-h3">Оставить заявку</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--
+=========================================================
+		Home page 2 reservation End
+==========================================================
+-->
+
+	<!--
+=========================================================
+		About Chef Section start
+==========================================================
+-->
+	<div class="grbn-about-chef sec-pad">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="chef-section-tit">
+						<h4>Преимущества мультибрендового магазина корейской косметики MYSKIN по франшизе</h4>
+						<div class="chef-text">
+							<p>Лучшие Бренды в одном месте?</p>
+							<p>Конечно! Мультибрендовый магазин корейской косметики</p>
+							<p>MYSKIN это:</p>
+							<p>•	Запоминающийся фирменный стиль</p>
+							<p>•	Известные бренды</p>
+							<p>•	Редкие бренды</p>
+							<p>•	Новинки и тренды</p>
+							<p>•	Качественная косметика</p>
+							<p>•	Разумная цена</p>
+						</div>
+						<!--<a href="#" class="btn-mr"> Узнать больше</a>-->
+					</div>
+				</div>
+				<div class="col-md-6 hidden-sm hidden-xs">
+					<div class="chef-img-rapper">
+						<div class="chef-img">
+							<img class="img-responsive" src="assets/images/chef/6.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--
+=========================================================
+		About Chef Section End
+==========================================================
+-->
+
+	<!--
+=========================================================
+		DelicoucsFood Area Start Form Hrere
+==========================================================
+-->
+	<div class="grbn-delicous-fd sec-pad s-white p-small">
+		<div class="container">
+			<div class="row">
+				<div class="all-del-food">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="sec-tit text-center white">
+								<h3>Успей занять свой город</h3>
+							</div>	
+						</div>	
+						<div class="col-md-6 col-sm-12 col-xs-12" style="left: -15px">
+							<div class="small-food-menu">
+								<ul class="mp0-ln">
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Москва</h4>
+												<span>Скоро открытие!</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Астана</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Минск</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Абакан</h4>
+												<span>Скоро открытие!</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Актобе</h4>
+												<span>1 магазин</span>
+											</div>
+											<p>Казахстан, г. Актобе, пр.-т Абулхаир хана, 85 «А», БЦ «МИР» , 2 этаж, бутик 26, тел.: +7(747)115-22-70
+												<a href="//www.instagram.com/myskin_aktobe" target="_blank"><img src="assets/images/instagram.png" alt="" style="padding-bottom: 5px"></a>
+											</p>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Архангельск</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Астрахань</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Владивосток</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Волгоград</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Грозный</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Екатеринбург</h4>
+												<span>1 магазин</span>
+											</div>
+											<p>Банковский пер., 3, ЦУМ «Мир Ткани», тел.: +7(919)396-77-27
+												<a href="//www.instagram.com/myskin_ekb" target="_blank"><img src="assets/images/instagram.png" alt="" style="padding-bottom: 5px"></a>
+											</p>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Ижевск</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Йошкар-Ола</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Иркутск</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Казань</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12" style="left: -15px">
+							<div class="small-food-menu">
+								<ul class="mp0-ln">
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Костанай</h4>
+												<span>1 магазин</span>
+											</div>
+											<p>Казахстан, г. Костанай, пр-т Аль – Фараби, 48, ТРЦ «MART», 1-й этаж, тел.: +7(701)999-36-09
+												<a href="//www.instagram.com/myskin_kostanay" target="_blank"><img src="assets/images/instagram.png" alt="" style="padding-bottom: 5px"></a>
+											</p>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Краснодар</h4>
+												<span>1 магазин</span>
+											</div>
+											<p>ул. Крылатая, 2, ТЦ «OZ Mall» , 1-й этаж</p>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Мурманск</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Новосибирск</h4>
+												<span>Скоро открытие!</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Омск</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Оренбург</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12" style="left: -15px">
+							<div class="small-food-menu">
+								<ul class="mp0-ln">
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Ростов-на-Дону</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Самара</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Санкт-Петербург</h4>
+												<span>Скоро открытие!</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Саратов</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Сургут</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Ульяновск</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Уфа</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Хабаровск</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<li>
+										<div class="media">
+											<!-- end food images -->
+											<div class="media-body">
+												<h4>Чита</h4>
+												<span>Свободен</span>
+											</div>
+										</div>
+									</li>
+									<!-- end single menu -->
+									<div id="brendy"></div>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--
+=========================================================
+		DelicoucsFood Area Start Form Hrere
+==========================================================
+-->
+	<!--
+=========================================================
+		Our Chef Area Start Form Hrere
+==========================================================
+-->
+	<div class="grnbn-chef-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sec-tit text-center">
+						<h2>25 Брендов в магазине MYSKIN</h2>
+						<h4><span>В Вашем магазине</span> MYSKIN</h4>
+					</div>
+					<!-- end section title -->
+				</div>
+			</div>
+			<div class="big-spacer"></div>
+			<!-- end big spacer -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="slideshow" >
+						<div class="cycle-slideshow all-chef-bio" 
+						data-cycle-fx=carousel
+						data-cycle-timeout=1000	
+						data-cycle-slides="div.single-chef-tem">
+								<a href="//myskin.top/apieu-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_1.png" alt=""></div></div></a>
+								<a href="//myskin.top/aromanewtech-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_2.png" alt=""></div></div></a>
+								<a href="//myskin.top/cosrx-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_3.png" alt=""></div></div></a>
+								<a href="//myskin.top/dongbang-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_4.png" alt=""></div></div></a>
+								<a href="//myskin.top/enprani-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_5.png" alt=""></div></div></a>
+								<a href="//myskin.top/etude-house/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_6.png" alt=""></div></div></a>
+								<a href="//myskin.top/eunyul-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_7.png" alt=""></div></div></a>
+								<a href="//myskin.top/farmstay-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_8.png" alt=""></div></div></a>
+								<a href="//myskin.top/inoface/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_9.png" alt=""></div></div></a>
+								<a href="//myskin.top/missha/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_10.png" alt=""></div></div></a>
+								<a href="//myskin.top/koelf-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_11.png" alt=""></div></div></a>
+								<a href="//myskin.top/skin-79/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_12.png" alt=""></div></div></a>
+								<a href="//myskin.top/the-skin-house-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_13.png" alt=""></div></div></a>
+								<a href="//myskin.top/yadah-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_14.png" alt=""></div></div></a>
+								<a href="//myskin.top/petitfee-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_16.png" alt=""></div></div></a>
+								<a href="//myskin.top/blumei-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_17.png" alt=""></div></div></a>
+								<a href="//myskin.top/juno-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_18.png" alt=""></div></div></a>
+								<a href="//myskin.top/labay-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_19.png" alt=""></div></div></a>
+								<a href="//myskin.top/lebelage-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_20.png" alt=""></div></div></a>
+								<a href="//myskin.top/lunaris-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_21.png" alt=""></div></div></a>
+								<a href="//myskin.top/mielle-ru/"><div class="single-chef-tem"><div class="chef-team-img"><img class="img-circle" src="assets/images/team/logo_22.png" alt=""></div></div></a>
+								
+						</div>	   
+					</div>
+				</div>
+			</div>
+			<div id="aboutus"></div>
+			<div class="mutu-2"></div>
+			<!-- end mutual spacer -->
+		</div>
+	</div>
+	<!--
+=========================================================
+		Our Chef Area End Form Hrere
+==========================================================
+-->
+	<!--
+=========================================================
+		Testimonails Area Start Form Hrere
+==========================================================
+-->
+	<div class="grnbn-tesi-area s-white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="all-testi-list cneter">
+						<div class="single-testi-list v-center">
+							<div class="testi-content text-center">
+								<span><i class="fa fa-quote-left"></i></span>
+								<p>Мы начали заниматься косметикой в 2012 году, открыв маленький интернет-магазин, 5 лет мы оттачивали технологии ведения бизнеса и став лидером на рынке корейской косметики, разработали MYSKIN.</p>
+								<h5><span class="clinte-re">"команда MYSKIN"</span></h5>
+							</div>
+							<!-- end testi content -->
+						</div>
+						<!-- single testi -->
+						<div class="single-testi-list v-center">
+							<div class="testi-content text-center">
+								<span><i class="fa fa-quote-left"></i></span>
+								<p>Почему MYSKIN появился именно сейчас? Мы потратили 3 года на разработку успешной бизнес-модели: собрали лучшее портфолио из известных и редких брендов, внедрили эффективнейшие маркетинг-приемы и бизнес процессы, а поддержка и опыт надежного партнера - гарантируют Вам успех.</p>
+								<h5><span class="clinte-re">"команда MYSKIN"</span></h5>
+							</div>
+							<!-- end testi content -->
+						</div>
+						<!-- single testi -->
+						<div class="single-testi-list v-center">
+							<div class="testi-content text-center">
+								<span><i class="fa fa-quote-left"></i></span>
+								<p>Проект MYSKIN разработан командой профессионалов и является готовым бизнес-проектом открытия магазина по франшизе.</p>
+								<h5><span class="clinte-re">"команда MYSKIN"</span></h5>
+							</div>
+							<!-- end testi content -->
+						</div>
+						<!-- single testi -->
+					</div>
+					<!-- all testi -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--
+=========================================================
+		Testimonails Area End Form Hrere
+==========================================================
+-->
+	<!--
+=========================================================
+		Blog Area Start Form Hrere
+==========================================================
+-->
+	<div class="grnbrn-contact-page-contact sec-pad">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-sm-5 col-xs-12">
+					<div class="con-heading mb-30">
+						<h4>
+							<p>СТАНЬТЕ ЧАСТЬЮ КОМАНДЫ СЕТИ МАГАЗИНОВ <span>MYSKIN!</span></p></h4>
+					</div>
+					<!-- end con heading -->
+					<ul class="mp0-ln con-ul">
+						<li>
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<h5> Телефон</h5>
+							<p>8 (499) 653 80 49</p>
+						</li>
+						<li>
+							<i class="fa fa-envelope-o"></i>
+							<h5> Электронный адрес</h5>
+							<p>
+								<a href="mailto:clients@myskin.com">my@myskin.top</a>
+							</p>
+						</li>
+						<li>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<h5>Instagram</h5>
+							<p>
+								<a href="https://www.instagram.com/myskin__official" target="_blank">myskin official</a>
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-md-offset-1 col-sm-7 col-xs-12">
+					<div class="con-heading mb-30">
+						<h4>Оставьте <span>заявку</span></h4>
+					</div>
+					<!-- end con heading -->
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xs-12 mb-30">
+							<div class="single-input">
+								<input id="t1" type="text" placeholder="Ваше имя *">
+							</div>
+						</div>
+						<!-- single input end -->
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xs-12 mb-30">
+							<div class="single-input">
+								<input id="t2" type="email" placeholder="Ваш телефон *">
+							</div>
+						</div>
+						<!-- single input end -->
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xs-12 mb-30">
+							<div class="single-input">
+								<input id="t3" type="text" placeholder="Ваш Email *">
+							</div>
+						</div>
+						<!-- single input end -->
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xs-12 mb-30">
+							<div class="single-input">
+								<input id="t4" type="text" placeholder="Ваш город *">
+							</div>
+						</div>
+						<!-- single input end -->
+					</div>
+					<div class="row">
+						<div class="form-group col-md-12 col-sm-12 col-xs-12 mb-30">
+							<div class="single-input">
+								<textarea id="t5" placeholder="Дополнительное сообщение"></textarea>
+							</div>
+						</div>
+						<!-- single input end -->
+					</div>
+					<div class="col-md-12 text-center mbn-n mn-0">
+						<a href="javascript:sendmail($('#t1').val(),$('#t2').val(),$('#t3').val(),$('#t4').val(),$('#t5').val())" class="btn-mr">Отправить</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--
+=========================================================
+		Blog Area Start Form Hrere
+==========================================================
+-->
+	<!--
+=========================================================
+		Footer Top Area Start Form Here
+==========================================================
+-->
+	<footer> <!--
+		<div class="footer-top-area sec-pad sm-font">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-xs-12 mtb-30 stb-30">
+						<div class="single-footer">
+							<h6>Grean<span>Bean</span></h6>
+							<ul>
+								<li>address<span class="pull-right">209 Milion Building, Canada</span></li>
+								<li>Phone<span class="pull-right">01778235039</span></li>
+								<li>Email<span class="pull-right">greenbeen@info.com</span></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-sm-6 col-xs-12 mtb-30 stb-30">
+						<div class="single-footer">
+							<h6> Opeanig<span>Hours</span></h6>
+							<ul>
+								<li>Mon-Fri<span class="pull-right">9am - 11pm</span></li>
+								<li>Saturday<span class="pull-right">8am - 8pm</span></li>
+								<li>Sunday<span class="pull-right">10am - 9pm</span></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="single-footer">
+							<h6>follow<span>us</span></h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, vero.</p>
+							<ul class=" footer-social-ioocn">
+								<Li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></Li>
+								<Li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></Li>
+								<Li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></Li>
+								<Li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></Li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div> -->
+		<!-- end footer-top -->
+		<div class="footer-bottom sm-font white-clr-all">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="copy-tecxt">
+							<p>Designed by MYSKIN. All Rights Reserved</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--
+=========================================================
+		Footer Top Area Start Form Here
+==========================================================
+-->
+	<!-- main jquery  -->
+	<script src="assets/js/jquery.min.js"></script>
+	<!-- bootstrap jquery  -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- jquery paralax -->
+	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<!-- slick carosel js -->
+	<script src="assets/js/slick.min.js"></script>
+	<!-- jquery sticky js -->
+	<script src="assets/js/sticky-header.js"></script>
+	<!-- jquery couner up -->
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<!-- jquery counter up animation -->
+	<script src="assets/js/waypoints.min.js"></script>
+	<!-- lightbox js -->
+	<script src="assets/js/lightbox.min.js"></script>
+	<!-- mean menu js -->
+	<script src="assets/js/jquery.meanmenu.min.js"></script>
+	<!-- scroll up js -->
+	<script src="assets/js/jquery.scrollUp.min.js"></script>
+	<!-- custom scripts -->
+	<script src="assets/js/main.js"></script>
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter45653997 = new Ya.Metrika({
+                    id:45653997,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<!--  /Yandex.Metrika counter -->
+
+</body>
+
+</html>
