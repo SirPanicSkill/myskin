@@ -73,6 +73,9 @@ a:hover {
 .flex {
     display: flex;
 }
+.clicker {
+    cursor: pointer;
+}
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
 
 input:-webkit-autofill,
