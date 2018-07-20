@@ -44,8 +44,8 @@
 
 <script src="assets/js/smtp.js"></script>
 <script type="text/javascript">
-	function sendmail(nameuser, phone, email, sity, message) {
-		if ((nameuser=="") || (phone=="") || (email=="") || (sity=="") || (message=="")) {
+	function sendmail(nameuser, phone, email, sity, message, check) {
+		if ((nameuser=="") || (phone=="") || (email=="") || (sity=="") || (message=="") || (check==false)) {
 			alert("Заполните все поля!");
 		} else {
 			var emailbody = ('оставил заявку '+nameuser+', телефон для связи '+phone+', обратный электронный адрес '+email+', желаемый город '+sity+', дополнительное сообщение '+message);
@@ -118,7 +118,7 @@
 		<div class="mbl-menu"></div>
 		<div class="top-men-bar">
 			<div class="container">
-				<div class="row">
+				<div class="row flex">
 					<div class="col-md-2  hidden-sm hidden-xs">
 						<div class="logo">
 							<p></p>	
@@ -129,10 +129,15 @@
 						</div>
 						<!-- end logo -->
 					</div>
-					<div class="col-md-8  hidden-sm hidden-xs">
+					<div class="col-md-10  hidden-sm hidden-xs">
+						<div class="skin_site">	
+							<a href="http://shop.myskin.top">shop.myskin.top</a>	
+						</div>
+					</div>
+					<!--<div class="col-md-8  hidden-sm hidden-xs">
 						<div class="main-menu">
 							<nav>
-								<ul><!--
+								<ul>
 									<li class="has-child"><a href="#">Home</a>
 										<ul class="sub-menu">
 											<li><a href="index.html"> Home One</a></li>
@@ -180,10 +185,10 @@
 										</ul>
 									</li>
 									<li><a href="reservation.html">Reservation</a></li>
-									<li><a href="contact.html">contact</a></li>-->
+									<li><a href="contact.html">contact</a></li>
 								</ul>
 							</nav>
-						</div>
+						</div>-->
 						<!-- end main menu -->
 					</div>
 				<!--	<div class="col-md-2  hidden-sm hidden-xs">
@@ -447,9 +452,17 @@
 						</div>
 						<!-- single input end -->
 					</div>
+					<div class="row">
+						<div class="form-group col-md-12 col-sm-12 col-xs-12 mb-30">
+							<div class="single-input home-3 skin_feedback flex">
+								<input id="m6" type="checkbox">
+								<label for="m6">Даю согласие на обработку моих персональных данных *</label>
+							</div>
+						</div>
+					</div>
 					<div id="a2"></div>
 					<div class="col-md-12 text-center mbn-n">
-						<a href="javascript:sendmail($('#m1').val(),$('#m2').val(),$('#m3').val(),$('#m4').val(),$('#m5').val())" class="btn-mr-tr-h3">Оставить заявку</a>
+						<a href="javascript:sendmail($('#m1').val(),$('#m2').val(),$('#m3').val(),$('#m4').val(),$('#m5').val(),$('#m6').prop('checked'))" class="btn-mr-tr-h3">Оставить заявку</a>
 					</div>
 				</div>
 			</div>
@@ -1047,8 +1060,16 @@
 						</div>
 						<!-- single input end -->
 					</div>
+					<div class="row">
+						<div class="form-group col-md-12 col-sm-12 col-xs-12 mb-30">
+							<div class="single-input home-3 skin_feedback skin_feedback_bottom flex">
+								<input id="t6" type="checkbox">
+								<label for="t6">Даю согласие на обработку моих персональных данных *</label>
+							</div>
+						</div>
+					</div>
 					<div class="col-md-12 text-center mbn-n mn-0">
-						<a href="javascript:sendmail($('#t1').val(),$('#t2').val(),$('#t3').val(),$('#t4').val(),$('#t5').val())" class="btn-mr">Отправить</a>
+						<a href="javascript:sendmail($('#t1').val(),$('#t2').val(),$('#t3').val(),$('#t4').val(),$('#t5').val(),$('#t6').prop('checked'))" class="btn-mr">Отправить</a>
 					</div>
 				</div>
 			</div>

@@ -70,6 +70,9 @@ a:hover {
     outline: none;
     color: #2ecc71
 }
+.flex {
+    display: flex;
+}
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
 
 input:-webkit-autofill,
@@ -664,6 +667,14 @@ padding: 25px 10px;
 }
 .sticking.top-men-bar.home-1.home-2 .right-social-icon.home-2 ul li a{
     padding: 25px 12px;
+}
+
+/*logo + site*/
+.top-men-bar .flex {
+    align-items: center;
+}
+.top-men-bar .skin_site {
+    text-align: right;
 }
 /*4.5.sticky css and sticky header css*/
 /*4.6.Mobile Menu*/
@@ -1548,6 +1559,43 @@ opacity: 0.5;
 .grnbn-booktbl.home-3 .single-input input:-moz-placeholder { /* Firefox 18- */
   color: #eee;
 }
+
+/*add checkbox for feedback*/
+.skin_feedback {
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+.skin_feedback input[type="checkbox"] {
+    display: none;
+}
+.skin_feedback label {
+    position: relative;
+    cursor: pointer;
+    color: #555;
+}
+.skin_feedback label::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -44px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.skin_feedback input[type="checkbox"]:checked ~ label::before {
+    width: 21px;
+    height: 10px;
+    border-top-style: none;
+    border-right-style: none;
+    transform: rotate(-45deg);
+}
+.skin_feedback_bottom label::before {
+    border: 2px solid #2ecc71;
+}
+
 /*====home version 3======*/
 /*============ 13.Book a tabel area css End form here=================*/
 /*============ 14.Page banner css=================*/
