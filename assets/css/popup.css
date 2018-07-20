@@ -46,9 +46,9 @@
 	background-color: #222;
 }
 
-div.popup {
-	/*background: #fff;
-	padding: 25px;*/
+.popup_cont div.popup {
+	background: #fff;
+	padding: 25px;
 	box-shadow: 0 3px 10px #222;
 }
 
@@ -57,4 +57,9 @@ div.popup {
 	margin: -10px 0 0 -25px;
 	position: fixed;
 	top: 50%;
+}
+
+.popup + .popup__body {
+	display: none;
+	opacity: 0;
 }

@@ -166,8 +166,17 @@ Window Preload
     jQuery(".grnbn-preloder-warp").fadeOut(500);
   });
 
-
-
+/*
+==========================================
+POPUP
+==========================================
+*/
+$('div.popup').popup({
+  content : $('.popup__body')
+  /*beforeOpen : function(){
+    this.next('.popup__body').css('display', 'block').css('opacity', '1');
+  }*/
+});
 
 })(jQuery);
 
