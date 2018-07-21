@@ -59,7 +59,7 @@
 	top: 50%;
 }
 
-.popup + .popup__body {
+.popup .popup__body {
 	display: none;
 	opacity: 0;
 }

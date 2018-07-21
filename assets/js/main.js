@@ -171,12 +171,33 @@ Window Preload
 POPUP
 ==========================================
 */
-$('div.popup').popup({
-  content : $('.popup__body')
-  /*beforeOpen : function(){
-    this.next('.popup__body').css('display', 'block').css('opacity', '1');
-  }*/
+/*$('div.popup').popup({
+  content : $(this).next('div')
+  beforeOpen : function(){
+    $(this).next('.popup__body').css('display', 'block').css('opacity', '1');
+  }
+});*/
+var popup = new $.Popup();
+
+
+$('div.popup').on('click', function(){
+  var a = $(this).clone();
+  function domPopupBody(){
+    if(a.find('.popup__body').is('div')) {
+      return a.find('.popup__body');
+    } else {
+      a.attr('class', '');
+      a.find('.media-body').attr('class', '');
+      return a;
+    }
+  };
+  popup.open(domPopupBody, 'function', $(this));
+  $('.popup_cont .popup__body').css({
+    'display': 'block',
+    'opacity': '1'
+  });
 });
+
 
 })(jQuery);
 
