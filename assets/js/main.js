@@ -184,6 +184,7 @@ $('div.popup').on('click', function(){
   var a = $(this).clone();
   function domPopupBody(){
     if(a.find('.popup__body').is('div')) {
+      a.find('.media-body').attr('class', '');
       return a.find('.popup__body');
     } else {
       a.attr('class', '');
@@ -192,10 +193,10 @@ $('div.popup').on('click', function(){
     }
   };
   popup.open(domPopupBody, 'function', $(this));
-  $('.popup_cont .popup__body').css({
+  /*$('.popup_cont .popup__body').css({
     'display': 'block',
     'opacity': '1'
-  });
+  });*/
 });
 
 
