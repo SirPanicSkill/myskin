@@ -1512,7 +1512,7 @@ opacity: 0.5;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-    text-transform: capitalize;
+    text-transform: initial;
 }
 .single-input textarea {
     height: 130px;
