@@ -70,8 +70,11 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-.popup__image > img {
-    max-width: 100%;
+.popup__image img {
+	max-width: 100%;
+	height: auto;
     max-height: 230px;
-    padding: 20px;
+	padding: 20px;
+	display: block;
+	box-sizing: content-box;
 }

@@ -130,6 +130,7 @@ $('.all-testi-list').slick({
   slidesToScroll: 1
 
 });
+
 /*
 ==========================================
 Mean Menu Js
@@ -171,14 +172,7 @@ Window Preload
 POPUP
 ==========================================
 */
-/*$('div.popup').popup({
-  content : $(this).next('div')
-  beforeOpen : function(){
-    $(this).next('.popup__body').css('display', 'block').css('opacity', '1');
-  }
-});*/
 var popup = new $.Popup();
-
 
 $('div.popup').on('click', function(){
   var a = $(this).clone();
@@ -193,10 +187,16 @@ $('div.popup').on('click', function(){
     }
   };
   popup.open(domPopupBody, 'function', $(this));
-  /*$('.popup_cont .popup__body').css({
-    'display': 'block',
-    'opacity': '1'
-  });*/
+  //cities
+  $('.popup_cont .popup__image').slick({
+    dots: true,
+    loop: true,
+    speed: 300,
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    useTransform: false
+  });
 });
 
 
