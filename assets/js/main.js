@@ -19,6 +19,7 @@ Version      : 1.0
 ==========================================
 */
 $('.slider-bg').parallax("50%", -0.1);
+$('.grbn-delicous-fd').parallax("50%", 0.1);
 
 $('.main-slider-1 a.slide-control-mr').on('click', function(){
   $('.slider-con h1,.slider-con p').addClass('animated  slideInDown');
