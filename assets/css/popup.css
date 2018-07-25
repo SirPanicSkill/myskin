@@ -59,22 +59,3 @@
 	top: 50%;
 }
 
-.popup .popup__body {
-	display: none;
-	opacity: 0;
-}
-.popup_cont .popup__body {
-	display: flex;
-	opacity: 1;	
-	justify-content: center;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-.popup__image img {
-	max-width: 100%;
-	height: auto;
-    max-height: 230px;
-	padding: 20px;
-	display: block;
-	box-sizing: content-box;
-}

@@ -193,6 +193,10 @@ $('div.popup').on('click', function(){
     loop: true,
     speed: 300,
     arrows: false,
+    centerMode: true,
+    autoplay: true,
+    variableWidth: true,
+    centerPadding: '60px',
     slidesToShow: 1,
     slidesToScroll: 1,
     useTransform: false

@@ -2209,3 +2209,42 @@ table,thead,tbody,tr,th,td{
     top: 0;
     left: 0;
 }
+
+/*============ Popup =================*/
+.popup .popup__body {
+	display: none;
+	opacity: 0;
+}
+.popup .popup__main {
+    padding: 0 20px;
+}
+.popup_cont .popup__body {
+	display: flex;
+	opacity: 1;	
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.popup__image {
+	max-width: 300px;
+	max-height: 300px;
+}
+.popup__image img {
+	max-width: 100%;
+	height: auto;
+    max-height: 230px;
+	padding: 20px;
+	display: block;
+	box-sizing: content-box;
+}
+
+/*============ Carousel =================*/
+.slick-dots li.slick-active button:before {
+    color: #2ecc71;
+}
+.slick-dots li button:before {
+    font-size: 40px;
+}
+.popup_cont .popup__body .slick-dots {
+    bottom: inherit;
+}
