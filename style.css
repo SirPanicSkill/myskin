@@ -678,6 +678,9 @@ padding: 25px 10px;
 }
 .top-men-bar .skin_site {
     text-align: right;
+    border: 1px solid #fff;
+    padding: 10px 35px;
+    color: #fff;
 }
 /*4.5.sticky css and sticky header css*/
 /*4.6.Mobile Menu*/
