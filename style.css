@@ -1072,7 +1072,7 @@ padding: 35px 13px;
 /*============ 9.Reservation Css start=================*/
 
 .grbn-delicous-fd {
-    background: rgba(0, 0, 0, 0) url("assets/images/section-img/pattern_1.png") no-repeat fixed center center;
+    background: rgba(0, 0, 0, 0) url("assets/images/section-img/pattern_1.png") no-repeat fixed center center / cover;
 }
 .all-del-food {
     padding: 72px 70px 55px 100px;
@@ -2236,6 +2236,10 @@ table,thead,tbody,tr,th,td{
 	padding: 20px;
 	display: block;
 	box-sizing: content-box;
+}
+
+.overflowHidden {
+    overflow: hidden;
 }
 
 /*============ Carousel =================*/

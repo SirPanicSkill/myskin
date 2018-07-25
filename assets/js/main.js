@@ -173,7 +173,6 @@ POPUP
 ==========================================
 */
 var popup = new $.Popup();
-
 $('div.popup').on('click', function(){
   var a = $(this).clone();
   function domPopupBody(){
@@ -184,10 +183,11 @@ $('div.popup').on('click', function(){
       a.attr('class', '');
       a.find('.media-body').attr('class', '');
       return a;
-    }
+    };
   };
+  //open popup
   popup.open(domPopupBody, 'function', $(this));
-  //cities
+  //cities carousel
   $('.popup_cont .popup__image').slick({
     dots: true,
     loop: true,
@@ -201,8 +201,12 @@ $('div.popup').on('click', function(){
     slidesToScroll: 1,
     useTransform: false
   });
+  //fix backgorund
+  $('body').addClass('overflowHidden');
+  $('.popup_back, .popup_close').click(function(){
+    $('body').removeClass('overflowHidden');
+  });
 });
-
 
 })(jQuery);
 
