@@ -12,8 +12,8 @@ Version      : 1.0.0
     ==========================
  */
 /*
-1.Template base Css   
-2.Helper Css  
+1.Template base Css
+2.Helper Css
 3.Preloder css
 4.Header Css
   4.1.Top Bar Css
@@ -842,6 +842,20 @@ padding: 35px 13px;
 }
 .chef-text {
   font-size: 15px;
+}
+.btn-more {
+    margin-bottom: 20px;
+}
+.btn-more:hover, .btn-more:visited, .btn-more:active {
+    color: white;
+    text-decoration: none;
+}
+.chef-text-more {
+    display: none;
+    flex-direction: column;
+}
+.btn-more-clicked + .chef-text-more {
+    
 }
 /*============ 5.chef  Css End=================*/
 /*============ 6.client review css start home page 2 =================*/

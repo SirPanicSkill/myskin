@@ -208,6 +208,15 @@ $('div.popup').on('click', function(){
     $('body').removeClass('overflowHidden');
   });
 });
+/*
+==========================================
+CHEF MORE BTN
+==========================================
+*/
+$('.btn-more').click(function(e) {
+  e.preventDefault();
+  $('.chef-text-more').slideToggle('slow');
+});
 
 })(jQuery);
 
