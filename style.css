@@ -857,6 +857,26 @@ padding: 35px 13px;
 .btn-more-clicked + .chef-text-more {
     
 }
+.greentext {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.more-section-tit h2 {
+    color: #27ae60;
+    font-size: 40px;
+/* сверху | горизонтально | снизу */
+    margin: 40px 0 10px;
+}
+
+.more-section-tit h3 {
+    font-size: 30px;
+    margin: 40px 0 10px;
+}
+.more-section-tit h4 {
+    font-size: 20px;
+    margin: 40px 0 10px;
+}
 /*============ 5.chef  Css End=================*/
 /*============ 6.client review css start home page 2 =================*/
 
