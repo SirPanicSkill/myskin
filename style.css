@@ -415,7 +415,16 @@ ol {
     position: relative;
 }
 .main-menu nav ul li a {
-    color: #34495e;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 25px 13px;
+    text-transform: capitalize;
+    transition: all 0.5s ease-out;
+}
+.main-menu nav ul li p {
+    color: #fff;
     display: block;
     font-size: 14px;
     font-weight: 400;
@@ -430,6 +439,9 @@ ol {
     margin-top: 16px;
 }
 .main-menu nav ul li a:hover {
+    color: #27ae60;
+}
+.main-menu nav ul li p:hover {
     color: #27ae60;
 }
 .main-menu nav ul li ul.sub-menu {
@@ -474,6 +486,13 @@ ol {
     color: #fff;
     transition: all 0.5s ease-out;
 }
+.main-menu nav ul li ul.sub-menu li p {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    transition: all 0.5s ease-out;
+    margin: auto;
+}
 .main-menu nav ul li:hover ul.sub-menu {
     transform: scaleY(1);
     visibility: visible;
@@ -502,7 +521,18 @@ ol {
     margin-left: 3px;
     font-family: "FontAwesome";
 }
+.main-menu > nav > ul > li.has-child > p:after {
+    content: "\f107";
+    margin-left: 3px;
+    font-family: "FontAwesome";
+}
 .main-menu nav > ul > li> ul.sub-menu >li.has-child > a:after {
+    content: "\f105";
+    position: absolute;
+    font-family: "FontAwesome";
+    right: 10px;
+}
+.main-menu nav > ul > li> ul.sub-menu >li.has-child > p:after {
     content: "\f105";
     position: absolute;
     font-family: "FontAwesome";
@@ -681,7 +711,7 @@ padding: 25px 10px;
     border: 1px solid #fff;
     padding: 10px 35px;
     color: #fff;
-    margin-left: 75%;
+    margin-left: 60%;
 }
 
 .top-men-bar .skin_site a {
@@ -2038,7 +2068,6 @@ blockquote {
 }
 
 .single-widget .media-body, .media-left, .media-right {
-
   width: auto;
 }
 
