@@ -47,6 +47,18 @@ a.meanmenu-reveal{display:none}
   text-transform: capitalize;
   color: #444;
 }
+.mean-container .mean-nav ul li li p {
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  opacity: 0.75;
+  padding: 1em 10%;
+  text-shadow: none !important;
+  visibility: visible;
+  width: 80%;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: #444;
+  margin: auto;
+}
 .mean-container .mean-nav ul li.mean-last a{border-bottom:0;margin-bottom:0}
 .mean-container .mean-nav ul li li li a{width:70%;padding:1em 15%}
 .mean-container .mean-nav ul li li li li a{width:60%;padding:1em 20%}
